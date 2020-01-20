@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors -->
+    <color name="in_circle_background">#ffffffff</color>
+    <color name="in_circle_border">#ffacacac</color>
+    <color name="in_circle_selected">#ff2ab8e6</color>
+
+    <!-- Strings -->
+    <string name="intro_1_title">Herzlich Willkommen in der Zeiterfassungs-App des BMAS</string>
+    <string name="intro_1_text">Bitte geben Sie Ihren Vor- und Nachnamen ein, um dem Arbeitgeber Ihre Daten später übermitteln zu können.</string>
+    <string name="intro_1_first_name_hint">Ihr Vorname</string>
+    <string name="intro_1_last_name_hint">Ihr Nachname</string>
+
+    <string name="intro_2_title">E-Mail-Adresse des Arbeitsgebers</string>
+    <string name="intro_2_text">Bitte geben Sie nun die E-Mail-Adresse Ihres Arbeitsgebers ein, um Ihre erfasste Zeit später versenden zu können.</string>
+    <string name="intro_2_email_hint">E-Mail-Adresse des Arbeitgebers</string>
+
+    <string name="intro_3_title">Nutzungsvereinbarung</string>
+    <string name="intro_3_text_h_0">Nutzungsvereinbarung und Datenschutzerklärung zur „einfach erfasst“-App</string>
+    <string name="intro_3_text_p_0">Das Bundesministerium für Arbeit und Soziales (BMAS) bietet die App „einfach erfasst“ zum kostenlosen Download an. Die App ermöglicht die Erfassung der Arbeitszeiten und den Versand der erfassten Arbeitszeiten. Das BMAS nimmt dabei den Schutz Ihrer personenbezogenen Daten sehr ernst. Die untenstehenden Bedingungen regeln das Verhältnis zwischen dem BMAS und der Nutzerin/dem Nutzer der App. Erst mit dem Einverständnis zu diesen Bedingungen, kann die App genutzt werden. Die Nutzung der App, insbesondere mit einem privaten Smartphone, darf nicht als verpflichtend durch die Arbeitgeberin/ den Arbeitgeber vorgegeben werden.</string>
+    <string name="intro_3_text_h_1">§ 1 Keine Erhebung, Verarbeitung oder Nutzung von Daten durch das BMAS</string>
+    <string name="intro_3_text_p_1">Bei der Nutzung der App erhebt, verarbeitet oder verwendet das BMAS keinerlei personenbezogene oder sonstige Daten. Eine Übermittlung von Daten erfolgt ausschließlich im Verhältnis zu Ihrer Arbeitgeberin/Ihrem Arbeitgeber.\n\nDie Übermittelung der Daten erfolgt über den nativen Mail-Client in Form einer E-Mail und nicht über technische Funktionen der App. Standardmäßig wird die E-Mail unverschlüsselt an den Arbeitgeber/die Arbeitgeberin übermittelt. Eine sichere und verschlüsselt Übermittlung obliegt daher dem Nutzer/der Nutzerin. Das BMAS empfiehlt aus diesem Grund den Einsatz/die Einrichtung einer geeigneten Verschlüsselung im E-Mail-Client (z.B. S/MIME).</string>
+    <string name="intro_3_text_h_2">§ 2 Nutzung von Standortdaten</string>
+    <string name="intro_3_text_p_2">Es erfolgt kein Zugriff auf Ihre Standortdaten durch die App.</string>
+    <string name="intro_3_text_h_3">§ 3 Haftungsausschluss</string>
+    <string name="intro_3_text_p_3">Die Haftung des BMAS für Schäden der Nutzerin/des Nutzers, die nicht auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung des BMAS, seines gesetzlichen Vertreters oder Erfüllungsgehilfen beruhen, ist ausgeschlossen. Die vorstehende Haftungsbeschränkung betrifft nicht Schäden aus der Verletzung von Leben, Körper und Gesundheit.</string>
+    <string name="intro_3_text_h_4">§ 4 Änderung der Nutzungsvereinbarung und Datenschutzerklärung</string>
+    <string name="intro_3_text_p_4">Im Zuge der Weiterentwicklung unserer App und der Implementierung neuer rechtlicher Vorgaben oder neuer Technologien (und um unseren Service für Sie zu verbessern), können Änderungen dieser Nutzungsvereinbarung und Datenschutzerklärung erforderlich werden. Das BMAS behält sich das Recht vor, die vorliegenden Bestimmungen jederzeit unter Beachtung der geltenden Gesetze zu aktualisieren. Mit Ihrer Zustimmung werden die Änderungen wirksam.</string>
+    <string name="intro_3_text_h_5">§ 5 Kontakt</string>
+    <string name="intro_3_text_p_5">Fragen oder Anmerkungen zu dieser Nutzungsvereinbarung und Datenschutzerklärung oder allgemein zum Datenschutz sowie Auskunftsersuchen richten Sie bitte an:</string>
+    <string name="intro_3_text_a_5">datenschutz-app@bmas.bund.de</string>
+
+    <string name="intro_1_2_button">Weiter</string>
+    <string name="intro_3_button">Akzeptieren</string>
+
+    <!-- Styles -->
+    <style name="indicator">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="in_circle">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/in_circle</item>
+    </style>
+    <style name="in_circle_selected" parent="in_circle">
+        <item name="android:background">@drawable/in_circle_selected</item>
+    </style>
+</resources>

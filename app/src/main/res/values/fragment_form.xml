@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ff_begin_item">Beginn</string>
+    <string name="ff_end_item">Ende</string>
+    <string name="ff_pause_item">Pause</string>
+    <string name="ff_save_button">Speichern</string>
+
+    <style name="ff_item_text">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">@dimen/ff_item_text</item>
+        <item name="fontFamily">@string/font_bundes_sans</item>
+    </style>
+    <style name="ff_item_date">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">@dimen/ff_item_date</item>
+        <item name="fontFamily">@string/font_bundes_serif</item>
+    </style>
+    <style name="ff_item_time">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">@dimen/ff_item_time</item>
+        <item name="fontFamily">@string/font_bundes_serif</item>
+    </style>
+    <style name="ff_button">
+        <item name="android:background">@drawable/c_button</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">@dimen/ff_button_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/c_button_text</item>
+        <item name="android:textSize">@dimen/ff_button</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+    </style>
+</resources>

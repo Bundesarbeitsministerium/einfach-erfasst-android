@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors -->
+    <color name="tl_header">#ff2ab8e6</color>
+    <color name="tl_footer">#ffffffff</color>
+
+    <!-- Strings -->
+    <string name="tl_hd_button_add">Eintrag Hinzufügen</string>
+    <string name="tl_hd_button_select">Auswählen</string>
+    <string name="tl_hd_button_cancel">Abbrechen</string>
+    <string name="tl_ft_button_delete">Löschen</string>
+    <string name="tl_ft_button_send">Versenden</string>
+    <string name="tl_empty">Keine Einträge vorhanden</string>
+    <string name="ti_zero">00:00 h</string>
+
+    <!-- Styles -->
+    <style name="tl_hd_button_left">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/c_button_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="tl_hd_button_right">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/c_button_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="tl_ti_month_year">
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@string/font_bundes_sans</item>
+    </style>
+    <style name="tl_ti_weekday">
+        <item name="android:textColor">@color/c_text_alt</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@string/font_bundes_serif_italic</item>
+    </style>
+    <style name="tl_ti_day">
+        <item name="android:layout_marginTop">-6dp</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">56sp</item>
+        <item name="fontFamily">@string/font_bundes_serif</item>
+    </style>
+    <style name="tl_ti_total_time">
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@string/font_bundes_serif</item>
+    </style>
+    <style name="tl_ti_begin_end_time">
+        <item name="android:textColor">@color/c_text_alt</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@string/font_bundes_sans</item>
+    </style>
+    <style name="tl_ft_button_left">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/c_button_text_alt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+    <style name="tl_ft_button_right">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/c_button_text_alt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+</resources>

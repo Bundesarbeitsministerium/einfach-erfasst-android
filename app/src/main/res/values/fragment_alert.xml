@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors -->
+    <color name="al_background">#ff2ab8e6</color>
+    <color name="al_text">#ffffffff</color>
+    <color name="al_button">#ffffffff</color>
+    <color name="al_button_text">#ff2ab8e6</color>
+
+    <!-- Strings -->
+    <string name="al_text_1">Bei der Registrierung Ihrer Arbeitszeit wurden %pause% Minuten Pause erfasst. Die gesetzlich vorgeschriebene Pausenzeit beträgt %pause-needed% Minuten (siehe Hilfe).</string>
+    <string name="al_text_2">Soll Ihre Zeiterfassung automatisch angepasst werden?</string>
+    <string name="al_button_no">Nein</string>
+    <string name="al_button_yes">Ja</string>
+
+    <!-- Styles -->
+    <style name="al_text_1" parent="c_text">
+        <item name="android:textColor">@color/al_text</item>
+    </style>
+    <style name="al_text_2" parent="c_text">
+        <item name="android:textColor">@color/al_text</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+    </style>
+    <style name="al_button" parent="c_button">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@color/al_button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/al_button_text</item>
+    </style>
+</resources>

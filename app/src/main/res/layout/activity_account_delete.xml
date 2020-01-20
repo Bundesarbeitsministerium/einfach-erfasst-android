@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/c_background">
+    <include android:id="@+id/topbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             layout="@layout/fragment_topbar"/>
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/topbar"
+                android:layout_above="@+id/tabbar">
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@color/c_background"
+                      android:padding="20dp">
+            <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginBottom="20dp"
+                                                        android:layout_gravity="start"
+                                                        android:text="@string/st_ad_title"
+                                                        style="@style/c_title"/>
+            <View android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:layout_marginBottom="20dp"
+                  style="@style/c_divider"/>
+            <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="@string/st_ad_text"
+                                                        style="@style/st_ad_text"/>
+            <de.bmas.einfach_erfasst.views.FontButton android:id="@+id/st_ad_delete_button"
+                                                      android:layout_width="match_parent"
+                                                      android:layout_height="wrap_content"
+                                                      android:layout_marginTop="40dp"
+                                                      android:text="@string/st_ad_delete"
+                                                      style="@style/st_ad_button"/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@+id/tabbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             layout="@layout/fragment_tabbar_3"/>
+</RelativeLayout>

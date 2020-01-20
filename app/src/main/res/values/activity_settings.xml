@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings -->
+    <string name="st_title">Einstellungen</string>
+    <string name="st_bt_change">Account ändern</string>
+    <string name="st_bt_delete">Nutzerdaten löschen</string>
+    <string name="st_bt_agreement">Nutzungsvereinbarung</string>
+    <string name="st_bt_imprint">Impressum</string>
+    <string name="st_bt_help">Hilfe</string>
+
+    <!-- Styles -->
+    <style name="st_button">
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@string/font_bundes_sans</item>
+    </style>
+</resources>

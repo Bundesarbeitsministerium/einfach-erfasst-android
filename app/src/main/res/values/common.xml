@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontView">
+        <attr name="fontFamily" format="string" />
+    </declare-styleable>
+
+    <!-- Colors -->
+    <color name="c_background">#fff6f6f6</color>
+    <color name="c_background_alt">#ffffffff</color>
+    <color name="c_divider">#ffacacac</color>
+    <color name="c_text">#ff666666</color>
+    <color name="c_text_alt">#ffacacac</color>
+    <color name="c_text_border">#ffd3d3d3</color>
+    <color name="c_link">#ff2ab8e6</color>
+    <color name="c_button_enabled">#ff2ab8e6</color>
+    <color name="c_button_disabled">#ffc4eaf6</color>
+    <color name="c_button_text">#ffffffff</color>
+    <color name="c_button_text_alt">#ff2ab8e6</color>
+    <color name="c_time_sent">#ffe3f1d1</color>
+
+    <!-- Integers -->
+    <integer name="reminderId">0</integer>
+    <integer name="trackingNotificationId">1</integer>
+    <integer name="timeListNotificationId">2</integer>
+
+    <!-- Strings -->
+    <string name="app_name">einfach erfasst</string>
+    <string name="content_description"/>
+    <string name="c_back_button">zurück</string>
+
+    <string name="font_bundes_sans">fonts/BundesSansWeb-Regular.ttf</string>
+    <string name="font_bundes_sans_bold">fonts/BundesSansWeb-Bold.ttf</string>
+    <string name="font_bundes_sans_bold_italic">fonts/BundesSansWeb-BoldItalic.ttf</string>
+    <string name="font_bundes_sans_italic">fonts/BundesSansWeb-Italic.ttf</string>
+    <string name="font_bundes_serif">fonts/BundesSerifWeb-Regular.ttf</string>
+    <string name="font_bundes_serif_bold">fonts/BundesSerifWeb-Bold.ttf</string>
+    <string name="font_bundes_serif_bold_italic">fonts/BundesSerifWeb-BoldItalic.ttf</string>
+    <string name="font_bundes_serif_italic">fonts/BundesSerifWeb-Italic.ttf</string>
+
+    <string name="trackingNotification">Ihre Arbeitszeit wird erfasst…</string>
+    <string name="timeListNotification">Bitte versenden Sie ihre Arbeitszeiten!</string>
+
+    <!-- Styles -->
+    <style name="AnTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="c_back_button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/c_button_text_alt</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@string/font_bundes_sans</item>
+    </style>
+    <style name="c_button">
+        <item name="android:background">@drawable/c_button</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/c_button_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+    </style>
+    <style name="c_divider">
+        <item name="android:background">@color/c_divider</item>
+    </style>
+
+    <style name="c_title">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@string/font_bundes_serif_bold</item>
+    </style>
+    <style name="c_text">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@string/font_bundes_sans</item>
+    </style>
+    <style name="c_text_h" parent="c_text">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">left</item>
+        <item name="fontFamily">@string/font_bundes_sans_bold</item>
+    </style>
+    <style name="c_text_p" parent="c_text">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="c_text_a" parent="c_text">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/c_link</item>
+    </style>
+
+    <style name="c_text_edit">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">@drawable/c_text_edit</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@string/font_bundes_serif_italic</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="at_working_time">#ff666666</color>
+    <color name="at_resting_time">#ff065b94</color>
+
+    <string name="at_timer_zero">00:00:00</string>
+
+    <style name="at_working_time">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/at_working_time</item>
+        <item name="android:textSize">@dimen/at_working_time</item>
+        <item name="fontFamily">@string/font_bundes_serif</item>
+    </style>
+    <style name="at_resting_time">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/at_resting_time</item>
+        <item name="android:textSize">@dimen/at_resting_time</item>
+        <item name="fontFamily">@string/font_bundes_serif</item>
+    </style>
+</resources>

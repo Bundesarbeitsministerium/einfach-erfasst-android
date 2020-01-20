@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ff_content"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+    <LinearLayout android:id="@+id/ff_begin_item"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp">
+        <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="0dp"
+                                                    android:layout_weight="0.25"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="@string/ff_begin_item"
+                                                    style="@style/ff_item_text"/>
+        <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/ff_begin_item_date"
+                                                    android:layout_width="0dp"
+                                                    android:layout_weight="0.5"
+                                                    android:layout_height="wrap_content"
+                                                    style="@style/ff_item_date"/>
+        <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/ff_begin_item_time"
+                                                    android:layout_width="0dp"
+                                                    android:layout_weight="0.25"
+                                                    android:layout_height="wrap_content"
+                                                    style="@style/ff_item_time"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+    <LinearLayout android:id="@+id/ff_end_item"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp">
+        <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="0dp"
+                                                    android:layout_weight="0.25"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="@string/ff_end_item"
+                                                    style="@style/ff_item_text"/>
+        <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/ff_end_item_date"
+                                                    android:layout_width="0dp"
+                                                    android:layout_weight="0.5"
+                                                    android:layout_height="wrap_content"
+                                                    style="@style/ff_item_date"/>
+        <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/ff_end_item_time"
+                                                    android:layout_width="0dp"
+                                                    android:layout_weight="0.25"
+                                                    android:layout_height="wrap_content"
+                                                    style="@style/ff_item_time"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+    <LinearLayout android:id="@+id/ff_pause_item"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp">
+        <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="0dp"
+                                                    android:layout_weight="0.75"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="@string/ff_pause_item"
+                                                    style="@style/ff_item_text"/>
+        <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/ff_pause_item_time"
+                                                    android:layout_width="0dp"
+                                                    android:layout_weight="0.25"
+                                                    android:layout_height="wrap_content"
+                                                    style="@style/ff_item_time"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+    <de.bmas.einfach_erfasst.views.FontButton android:id="@+id/ff_save_button"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="wrap_content"
+                                              android:layout_marginTop="@dimen/ff_button_marginTop"
+                                              android:text="@string/ff_save_button"
+                                              android:enabled="false"
+                                              style="@style/ff_button"/>
+</LinearLayout>

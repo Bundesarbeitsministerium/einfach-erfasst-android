@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/c_background">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tabbar">
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingTop="@dimen/at_content_paddingTop"
+                      android:paddingBottom="@dimen/at_content_paddingBottom"
+                      android:paddingLeft="@dimen/at_content_paddingLeft"
+                      android:paddingRight="@dimen/at_content_paddingRight"
+                      android:background="@color/c_background">
+            <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/at_working_time"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="@string/at_timer_zero"
+                                                        style="@style/at_working_time"/>
+            <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/at_resting_time"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:text="@string/at_timer_zero"
+                                                        android:visibility="gone"
+                                                        style="@style/at_resting_time"/>
+            <LinearLayout android:orientation="horizontal"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="@dimen/at_buttons_marginTop"
+                          android:layout_marginBottom="@dimen/at_buttons_marginBottom"
+                          android:layout_gravity="center">
+                <ToggleButton android:id="@+id/at_working_button"
+                              android:layout_width="@dimen/at_working_button"
+                              android:layout_height="@dimen/at_working_button"
+                              android:layout_marginRight="10dp"
+                              android:background="@drawable/at_working_button"
+                              android:text=""
+                              android:textOn=""
+                              android:textOff=""/>
+                <ToggleButton android:id="@+id/at_resting_button"
+                              android:layout_width="@dimen/at_working_button"
+                              android:layout_height="@dimen/at_working_button"
+                              android:layout_marginLeft="10dp"
+                              android:background="@drawable/at_resting_button"
+                              android:text=""
+                              android:textOn=""
+                              android:textOff=""
+                              android:enabled="false"/>
+            </LinearLayout>
+            <include layout="@layout/fragment_form"/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@+id/tabbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             layout="@layout/fragment_tabbar_2"/>
+</RelativeLayout>

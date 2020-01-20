@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="de.bmas.einfach_erfasst">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application android:name=".objects.AnApplication"
+                 android:icon="@mipmap/ic_launcher"
+                 android:label="@string/app_name"
+                 android:theme="@style/AnTheme"
+                 android:allowBackup="false">
+        <activity android:name=".activities.ActivitySplash"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.ActivityBase"/>
+        <activity android:name=".activities.ActivityBaseForm"/>
+        <activity android:name=".activities.ActivityIntro1" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activities.ActivityIntro2" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activities.ActivityIntro3"/>
+        <activity android:name=".activities.ActivityTimeList"/>
+        <activity android:name=".activities.ActivityTimeItem"/>
+        <activity android:name=".activities.ActivityTracking"/>
+        <activity android:name=".activities.ActivitySettings"/>
+        <activity android:name=".activities.ActivityAccountChange" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activities.ActivityAccountDelete"/>
+        <activity android:name=".activities.ActivityAgreement"/>
+        <activity android:name=".activities.ActivityImprint"/>
+        <activity android:name=".activities.ActivityHelp"/>
+
+        <receiver android:process=":remote" android:name=".objects.Reminder"/>
+        <receiver android:name=".objects.BootReceiver"
+                  android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

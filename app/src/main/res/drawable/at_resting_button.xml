@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true">
+        <bitmap android:src="@drawable/at_resting_button_2"/>
+    </item>
+    <item android:state_enabled="true" android:state_checked="false">
+        <bitmap android:src="@drawable/at_resting_button_1"/>
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/at_resting_button_0"/>
+    </item>
+</selector>

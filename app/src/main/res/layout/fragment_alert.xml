@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/al_background">
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="40dp"
+                  android:paddingBottom="40dp"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp">
+        <ImageView android:contentDescription="@string/content_description"
+                   android:layout_width="52dp"
+                   android:layout_height="52dp"
+                   android:layout_marginBottom="40dp"
+                   android:layout_gravity="center"
+                   android:scaleType="fitCenter"
+                   android:src="@drawable/f_alert"/>
+        <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/al_text_1"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginBottom="40dp"
+                                                    android:text="@string/al_text_1"
+                                                    style="@style/al_text_1"/>
+        <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginBottom="40dp"
+                                                    android:text="@string/al_text_2"
+                                                    style="@style/al_text_2"/>
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+            <de.bmas.einfach_erfasst.views.FontButton android:id="@+id/al_button_no"
+                                                      android:layout_width="0dp"
+                                                      android:layout_weight="0.5"
+                                                      android:layout_height="wrap_content"
+                                                      android:layout_marginRight="10dp"
+                                                      android:text="@string/al_button_no"
+                                                      style="@style/al_button"/>
+            <de.bmas.einfach_erfasst.views.FontButton android:id="@+id/al_button_yes"
+                                                      android:layout_width="0dp"
+                                                      android:layout_weight="0.5"
+                                                      android:layout_height="wrap_content"
+                                                      android:layout_marginLeft="10dp"
+                                                      android:text="@string/al_button_yes"
+                                                      style="@style/al_button"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

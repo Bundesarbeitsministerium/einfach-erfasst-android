@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ff_item_text">20sp</dimen>
+    <dimen name="ff_item_date">28sp</dimen>
+    <dimen name="ff_item_time">28sp</dimen>
+
+    <dimen name="ff_button_marginTop">20dp</dimen>
+    <dimen name="ff_button_padding">12dp</dimen>
+    <dimen name="ff_button">28sp</dimen>
+</resources>

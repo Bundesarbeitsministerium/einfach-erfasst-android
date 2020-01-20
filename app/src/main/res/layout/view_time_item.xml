@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/tl_ti_bg"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
+              android:descendantFocusability="blocksDescendants">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="86dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_alignParentLeft="true"
+                      android:layout_alignParentStart="true">
+            <ToggleButton android:id="@+id/tl_ti_checkbox"
+                          android:layout_width="28dp"
+                          android:layout_height="28dp"
+                          android:layout_gravity="center"
+                          android:layout_marginRight="20dp"
+                          android:layout_marginEnd="20dp"
+                          android:background="@drawable/tl_ti_checkbox"
+                          android:text=""
+                          android:textOn=""
+                          android:textOff=""
+                          android:visibility="gone"/>
+            <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/tl_ti_weekday"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        style="@style/tl_ti_weekday"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_alignParentRight="true"
+                      android:layout_alignParentEnd="true">
+            <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/tl_ti_day"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        style="@style/tl_ti_day"/>
+            <View android:layout_width="1px"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  style="@style/c_divider"/>
+            <LinearLayout android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="match_parent">
+                <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/tl_ti_total_time"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            style="@style/tl_ti_total_time"/>
+                <de.bmas.einfach_erfasst.views.FontTextView android:id="@+id/tl_ti_begin_end_time"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            style="@style/tl_ti_begin_end_time"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/tl_ti_arrow"
+                       android:layout_width="12dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginLeft="20dp"
+                       android:layout_marginStart="20dp"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/c_arrow"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@+id/tl_ti_divider"
+          android:layout_width="match_parent"
+          android:layout_height="1px"
+          style="@style/c_divider"/>
+</LinearLayout>

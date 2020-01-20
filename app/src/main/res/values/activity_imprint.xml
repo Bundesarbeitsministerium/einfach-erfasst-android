@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aimp_title">Impressum</string>
+    <string name="aimp_text_h_0">Online-Dienste des Bundesministeriums für Arbeit und Soziales</string>
+    <string name="aimp_text_p_0_0">Bundesministerium für Arbeit und Soziales (BMAS)\nÖffentlichkeitsarbeit und Internet\nWilhelmstraße 49\n10117 Berlin\n\nPostanschrift: 11017 Berlin\n\nTelefax: 030 18 527 2236\n</string>
+    <string name="aimp_text_p_0_1">E-Mail-Adresse:</string>
+    <string name="aimp_text_a_0_1">info@bmas.bund.de</string>
+    <string name="aimp_text_h_1">E-Mail-Adressen für Gehörlose</string>
+    <string name="aimp_text_a_1">info.gehoerlos@bmas.bund.de</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings -->
+    <string name="st_ac_title">Ihre Einstellungen</string>
+    <string name="st_ac_first_name">Vorname</string>
+    <string name="st_ac_last_name">Nachname</string>
+    <string name="st_ac_email">E-Mail-Adresse des Arbeitgebers</string>
+    <string name="st_ac_save">Speichern</string>
+
+    <!-- Styles -->
+    <style name="st_ac_text">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@string/font_bundes_serif_bold</item>
+    </style>
+    <style name="st_ac_text_edit">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">13dp</item>
+        <item name="android:paddingRight">13dp</item>
+        <item name="android:background">@drawable/c_text_edit</item>
+        <item name="android:textColor">@color/c_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@string/font_bundes_serif_italic</item>
+    </style>
+    <style name="st_ac_button" parent="c_button">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

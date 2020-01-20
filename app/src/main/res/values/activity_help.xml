@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings -->
+    <string name="ah_title">Hilfe</string>
+    <string name="ah_text_h_0">Herzlich Willkommen bei der BMAS-App „einfach erfasst“</string>
+    <string name="ah_text_p_0">Mit Hilfe der App können Sie ganz einfach ihre Arbeitszeiten erfassen und mit geringem Aufwand ihrem Arbeitgeber zusenden.</string>
+    <string name="ah_text_h_1">Arbeitszeit und Pausenzeit erfassen</string>
+    <string name="ah_text_p_1">Wenn Sie ihre Arbeit beginnen, drücken Sie <b>Start</b>. Möchten Sie eine Pause machen, tippen Sie auf <b>Pause</b>. Die Arbeitszeiterfassung wird dann automatisch unterbrochen.\n\nDie Pausen werden extra erfasst und am Ende des Tages nicht auf die Arbeitszeit angerechnet.</string>
+    <string name="ah_text_h_2">Gesetzliche Pausenzeit 1/2</string>
+    <string name="ah_text_p_2">Sollten Sie während des Arbeitstages vergessen haben Ihre Pause mit der App zu erfassen oder eine zu kurze Pausenzeit registriert haben, so werden Sie gefragt, ob Ihre Zeiterfassung angepasst werden soll. Damit werden Ihnen die nach dem Arbeitszeitgesetz vorgegebenen Mindestpausenzeiten abgezogen: Bei mehr als sechsstündiger Arbeitszeit sind das 30 Minuten und bei mehr als neunstündiger Arbeitszeit 45 Minuten.\nBei der Anpassung werden in Ihrem Interesse bei einer Arbeitszeit zwischen 6.00 Stunden und 6.30 Stunden nur die über 6 Stunden hinausgehenden Minuten (max. 30 Minuten) als Pausenzeit erfasst. Entsprechend werden bei einer Arbeitszeit zwischen 9.00 Stunden und 9.15 Stunden neben der Pausenzeit von 30 Minuten nur die über 9 Stunden hinausgehenden Minuten (max. 15 Minuten) als Pausenzeit erfasst.</string>
+    <string name="ah_text_h_3">Gesetzliche Pausenzeit 2/2</string>
+    <string name="ah_text_p_3">Mit der App können Sie auch Arbeitsunterbrechungen von weniger als 15 Minuten registrieren. Sofern Sie das tun, weist Sie die App nicht darauf hin, dass Ruhepausen nach dem Arbeitszeitgesetz grundsätzlich nur in Zeitabschnitte von jeweils mindestens 15 Minuten aufgeteilt werden dürfen. Nach dem Gesetz besteht auch die Möglichkeit, dass Tarifvertragsparteien in Schichtbetrieben und Verkehrsbetrieben die Gesamtdauer der Ruhepausen auf Kurzpausen von angemessener Dauer aufteilen. Außerdem kann der Arbeitgeber über die gesetzlichen Mindestruhepausen hinaus weitere kurze Arbeitsunterbrechungen gewähren.</string>
+    <string name="ah_text_h_4">Gesetzliche Ruhezeit</string>
+    <string name="ah_text_p_4">Die App <b>weist Sie nicht darauf hin</b>, ob Sie die gesetzlich vorgeschriebene ununterbrochene Ruhezeit von mindestens elf Stunden – bzw. von zehn Stunden bei einer Reihe von Einrichtungen wie beispielsweise Krankenhäusern – zwischen zwei Arbeitsschichten eingehalten oder die Höchstgrenze von zehn Stunden Arbeit pro Tag überschritten haben.</string>
+    <string name="ah_text_h_5">Speichern der erfassten Arbeitszeit</string>
+    <string name="ah_text_p_5">Um einen Arbeitstag zu beenden, drücken Sie <b>Stop</b> und dann <b>Speichern</b>. Ihre Arbeitszeit ist nun gespeichert und kann in der Navigation unter „Zeiten“ eingesehen werden.</string>
+    <string name="ah_text_h_6">Nachtragen und Bearbeiten</string>
+    <string name="ah_text_p_6">Sie haben auch die Möglichkeit Ihre Arbeitszeit nachzutragen. Dafür tippen Sie in der Navigation unter „Zeiten“ auf <b>Eintrag hinzufügen</b>.\nUm einen Eintrag zu bearbeiten, tippen Sie einfach auf den gewünschten Eintrag und ändern die Arbeits- und Pausenzeiten.</string>
+    <string name="ah_text_h_7">Versenden der erfassten Arbeitszeit</string>
+    <string name="ah_text_p_7">Wenn Sie ihre Arbeitszeiten versenden oder löschen möchten, drücken sie unter Zeiten auf <b>Auswählen</b>, markieren Sie die gewünschten Einträge drücken Sie anschließend <b>Versenden</b>. Zum Versenden öffnen sich die Mail-App ihrer Wahl.</string>
+    <string name="ah_text_h_8">Erinnerungsfunktion</string>
+    <string name="ah_text_p_8">Die Arbeitszeiten sind innerhalb von 7 Tagen an den Arbeitgeber zu übersenden. Falls Sie den Versand einmal nicht vorgenommen haben, werden Sie über eine Mitteilung auf ihrem Bildschirm daran erinnert. Die Funktion lässt sich jederzeit in ihren Smartphone Einstellungen ausschalten.\n\nUnd nun viel Spaß mit der „einfach erfasst“ BMAS-App!</string>
+
+    <string name="ah_button_prev">Zurück</string>
+    <string name="ah_button_next">Weiter</string>
+
+    <!-- Styles -->
+    <style name="ah_button" parent="c_button">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageView"
+                   android:contentDescription="@string/content_description"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:adjustViewBounds="true"
+                   android:background="@color/c_background_alt"
+                   android:scaleType="fitStart"/>
+    </RelativeLayout>
+</ScrollView>

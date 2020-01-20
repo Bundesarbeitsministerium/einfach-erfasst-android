@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/tl_footer"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp">
+        <de.bmas.einfach_erfasst.views.FontButton android:id="@+id/tl_ft_button_delete"
+                                                  android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                  android:text="@string/tl_ft_button_delete"
+                                                  style="@style/tl_ft_button_left"/>
+        <de.bmas.einfach_erfasst.views.FontButton android:id="@+id/tl_ft_button_send"
+                                                  android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+                                                  android:text="@string/tl_ft_button_send"
+                                                  style="@style/tl_ft_button_right"/>
+    </RelativeLayout>
+</LinearLayout>

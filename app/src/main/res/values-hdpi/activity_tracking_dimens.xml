@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="at_content_paddingTop">10dp</dimen>
+    <dimen name="at_content_paddingBottom">10dp</dimen>
+    <dimen name="at_content_paddingLeft">20dp</dimen>
+    <dimen name="at_content_paddingRight">20dp</dimen>
+
+    <dimen name="at_buttons_marginTop">10dp</dimen>
+    <dimen name="at_buttons_marginBottom">20dp</dimen>
+
+    <dimen name="at_working_time">68sp</dimen>
+    <dimen name="at_resting_time">26sp</dimen>
+
+    <dimen name="at_working_button">68dp</dimen>
+    <dimen name="at_resting_button">68dp</dimen>
+</resources>

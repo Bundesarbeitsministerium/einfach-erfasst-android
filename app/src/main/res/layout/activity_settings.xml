@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/c_background">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tabbar">
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@color/c_background"
+                      android:padding="20dp">
+            <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginBottom="20dp"
+                                                        android:layout_gravity="start"
+                                                        android:text="@string/st_title"
+                                                        style="@style/c_title"/>
+            <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+            <RelativeLayout android:id="@+id/st_bt_change"
+                            android:layout_width="match_parent"
+                            android:layout_height="72dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp">
+                <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentLeft="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:gravity="center_vertical"
+                                                            android:text="@string/st_bt_change"
+                                                            style="@style/st_button"/>
+                <ImageView android:contentDescription="@string/content_description"
+                           android:layout_width="12dp"
+                           android:layout_height="match_parent"
+                           android:layout_marginLeft="20dp"
+                           android:layout_marginStart="20dp"
+                           android:layout_alignParentRight="true"
+                           android:layout_alignParentEnd="true"
+                           android:scaleType="fitCenter"
+                           android:src="@drawable/c_arrow"/>
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+            <RelativeLayout android:id="@+id/st_bt_delete"
+                            android:layout_width="match_parent"
+                            android:layout_height="72dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp">
+                <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentLeft="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:gravity="center_vertical"
+                                                            android:text="@string/st_bt_delete"
+                                                            style="@style/st_button"/>
+                <ImageView android:contentDescription="@string/content_description"
+                           android:layout_width="12dp"
+                           android:layout_height="match_parent"
+                           android:layout_marginLeft="20dp"
+                           android:layout_marginStart="20dp"
+                           android:layout_alignParentRight="true"
+                           android:layout_alignParentEnd="true"
+                           android:scaleType="fitCenter"
+                           android:src="@drawable/c_arrow"/>
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+            <RelativeLayout android:id="@+id/st_bt_agreement"
+                            android:layout_width="match_parent"
+                            android:layout_height="72dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp">
+                <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentLeft="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:gravity="center_vertical"
+                                                            android:text="@string/st_bt_agreement"
+                                                            style="@style/st_button"/>
+                <ImageView android:contentDescription="@string/content_description"
+                           android:layout_width="12dp"
+                           android:layout_height="match_parent"
+                           android:layout_marginLeft="20dp"
+                           android:layout_marginStart="20dp"
+                           android:layout_alignParentRight="true"
+                           android:layout_alignParentEnd="true"
+                           android:scaleType="fitCenter"
+                           android:src="@drawable/c_arrow"/>
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+            <RelativeLayout android:id="@+id/st_bt_imprint"
+                            android:layout_width="match_parent"
+                            android:layout_height="72dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp">
+                <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentLeft="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:gravity="center_vertical"
+                                                            android:text="@string/st_bt_imprint"
+                                                            style="@style/st_button"/>
+                <ImageView android:contentDescription="@string/content_description"
+                           android:layout_width="12dp"
+                           android:layout_height="match_parent"
+                           android:layout_marginLeft="20dp"
+                           android:layout_marginStart="20dp"
+                           android:layout_alignParentRight="true"
+                           android:layout_alignParentEnd="true"
+                           android:scaleType="fitCenter"
+                           android:src="@drawable/c_arrow"/>
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+            <RelativeLayout android:id="@+id/st_bt_help"
+                            android:layout_width="match_parent"
+                            android:layout_height="72dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp">
+                <de.bmas.einfach_erfasst.views.FontTextView android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:layout_alignParentLeft="true"
+                                                            android:layout_alignParentStart="true"
+                                                            android:gravity="center_vertical"
+                                                            android:text="@string/st_bt_help"
+                                                            style="@style/st_button"/>
+                <ImageView android:contentDescription="@string/content_description"
+                           android:layout_width="12dp"
+                           android:layout_height="match_parent"
+                           android:layout_marginLeft="20dp"
+                           android:layout_marginStart="20dp"
+                           android:layout_alignParentRight="true"
+                           android:layout_alignParentEnd="true"
+                           android:scaleType="fitCenter"
+                           android:src="@drawable/c_arrow"/>
+            </RelativeLayout>
+            <View android:layout_width="match_parent" android:layout_height="1px" style="@style/c_divider"/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@+id/tabbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             layout="@layout/fragment_tabbar_3"/>
+</RelativeLayout>
