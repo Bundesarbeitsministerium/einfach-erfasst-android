@@ -41,9 +41,9 @@ public class ActivityImprint extends ActivityBase
             }
         };
 
-        this.findViewById(R.id.aimp_text_a_0_1).setOnClickListener(mailTo);
-        this.findViewById(R.id.aimp_text_a_1).setOnClickListener(mailTo);
-        this.findViewById(R.id.aimp_text_a_2_1).setOnClickListener(mailTo);
-        this.findViewById(R.id.aimp_text_a_2_2).setOnClickListener(browse);
+        // this.findViewById(R.id.aimp_text_a_0_1).setOnClickListener(mailTo);
+        // this.findViewById(R.id.aimp_text_a_1).setOnClickListener(mailTo);
+        // this.findViewById(R.id.aimp_text_a_2_1).setOnClickListener(mailTo);
+        // this.findViewById(R.id.aimp_text_a_2_2).setOnClickListener(browse);
     }
 }
